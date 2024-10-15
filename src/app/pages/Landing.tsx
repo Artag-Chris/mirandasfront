@@ -33,7 +33,7 @@ export default function LuxuryNailSpaLanding() {
       { id: 'home', label: 'Inicio' },
       { id: 'services', label: 'Servicios' },
       { id: 'testimonials', label: 'Testimonios' },
-      { id: 'calendar', label: 'calendario' },
+      { id: 'calendar', label: 'Agenda' },
       { id: 'contact', label: 'Contacto' },
     ]
   return (
