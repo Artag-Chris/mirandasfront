@@ -2,6 +2,7 @@
 import { AnimatePresence, motion } from "framer-motion"
 import { Star, ChevronRight, Menu, X } from "lucide-react"
 import { useEffect, useState } from "react"
+import AppointmentCalendar from "../components/AppointmentCalendar"
 
 
 export default function LuxuryNailSpaLanding() {
@@ -10,7 +11,7 @@ export default function LuxuryNailSpaLanding() {
   
     useEffect(() => {
       const handleScroll = () => {
-        const sections = ['home', 'services', 'testimonials', 'contact']
+        const sections = ['home', 'services', 'testimonials', 'calendar', 'contact']
         const currentSection = sections.find(section => {
           const element = document.getElementById(section)
           if (element) {
@@ -32,6 +33,7 @@ export default function LuxuryNailSpaLanding() {
       { id: 'home', label: 'Inicio' },
       { id: 'services', label: 'Servicios' },
       { id: 'testimonials', label: 'Testimonios' },
+      { id: 'calendar', label: 'calendario' },
       { id: 'contact', label: 'Contacto' },
     ]
   return (
@@ -183,6 +185,10 @@ export default function LuxuryNailSpaLanding() {
             </motion.div>
           ))}
         </div>
+      </section>
+      {/* Calendar Section */}
+      <section id="calendar" >
+        <AppointmentCalendar />
       </section>
 
       {/* Footer */}
