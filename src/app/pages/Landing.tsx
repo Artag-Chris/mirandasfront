@@ -44,7 +44,7 @@ export default function LuxuryNailSpaLanding() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <a href="#home" className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-700 to-yellow-500">
-                Elegancia Dorada
+              Miranda&apos;s Nails
               </a>
             </div>
             <div className="hidden md:block">
@@ -110,7 +110,7 @@ export default function LuxuryNailSpaLanding() {
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-50 z-0"></div>
         <div className="relative z-10 text-center px-4">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600">
-            Elegancia Dorada
+          Miranda&apos;s Nails
           </h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -196,14 +196,14 @@ export default function LuxuryNailSpaLanding() {
         <div className="max-w-6xl mx-auto flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-2xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600">
-              Elegancia Dorada
+            Miranda&apos;s Nails
             </h3>
             <p className="text-yellow-200">Elevando el arte del cuidado de uñas a nuevas alturas de lujo.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h4 className="text-xl font-semibold mb-4 text-yellow-400">Contáctanos</h4>
-            <p className="text-yellow-200">123 Calle Dorada, Ciudad Lujo</p>
-            <p className="text-yellow-200">Tel: (555) 123-4567</p>
+            <p className="text-yellow-200">carrera 23 # 72-57 segundo piso - Pereira</p>
+            <p className="text-yellow-200">Tel:  +57 313 326 2874</p>
             <p className="text-yellow-200">Email: info@eleganciadorada.com</p>
           </div>
           <div className="w-full md:w-1/3">
@@ -222,7 +222,7 @@ export default function LuxuryNailSpaLanding() {
           </div>
         </div>
         <div className="mt-8 text-center text-yellow-200">
-          <p>&copy; 2024 Elegancia Dorada. Todos los derechos reservados.</p>
+          <p>&copy; 2024 Miranda&apos;s Nails. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>
